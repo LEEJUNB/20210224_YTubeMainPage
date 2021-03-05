@@ -5,27 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
     <script src="main.js"></script>
+    <!--font awesome src-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <title>YouYouYou</title>
 </head>
 <body>
     <!-- Header -->
     <header>
         <div class="logo">
-            <i class="fab fa-youtube"></i>
+            <i class="fab fa-youtube"></i> <!--font awesome youtube logo-->
             <span class="title">Youtube</span>
         </div>
         <div class="icons">
-            <i class="fas fa-search"></i>
-            <i class="fas fa-ellipsis-v"></i>
+            <i class="fas fa-search"></i>  <!--font awesome search logo-->
+            <i class="fas fa-ellipsis-v"></i>  <!--font awesome ellipsis logo-->
         </div>
     </header>
-    
+
     <!-- Video Player -->
-    <section class="player"></section>
-    <section class="info"></section>
+    <section class="player">
+        <video controls poster src="video/video.mp4"></video>
+    </section>
+
+    <!-- VIdeo Info -->
+    <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+        </div>
+        <!-- Actions -->
+        <div class="actions">
+        </div>
+        <!-- Channel -->
+        <div class="channel">
+            <div class="metadata"></div>
+            <div class="subscribe"></div>
+        </div>
+    </section>
     <section class="upNext"></section>
 </body>
 </html>
