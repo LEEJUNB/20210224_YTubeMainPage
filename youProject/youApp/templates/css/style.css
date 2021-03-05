@@ -1,0 +1,68 @@
+:root {
+    /* Color */
+    --white-color : #fff;
+    --black-color : #140a00;
+    --blue-color : #045fd4;
+    --red-color : #ff0000;
+    --grey-dark-color : #909090;
+    --grey-light-color : #e0e0e0;
+
+    /* Size */
+    --side-padding : 12px;
+    --avatar-size : 36px;
+
+    /* Font Size */
+    --font-large : 18px;
+    --font-medium : 14px;
+    --font-small : 12px;
+    --font-micro : 10px;
+}
+
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box; /* padding, margin줬을 때 사이즈에 반영되도록 */
+}
+
+body {
+    font-family: Roboto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding : var(--side-padding);
+    background-color: var(--black-color);
+    color : var(--white-color);
+}
+
+header .logo{
+    font-size: var(--font-large);
+}
+
+header .logo i {
+    color : var(--red-color);
+}
+
+/* search bar 위치 */
+header .icons .fa-search {
+    margin-right : var(--side-padding);
+}
+
+
+/* player 반응형으로 만들기 */
+.player {
+    /* 플레이어 최상단고정 */
+    position :sticky;
+    top : 0;
+
+    text-align: center;
+    background-color: var(--black-color); /* 플레이어 여백은 블랙 */
+}
+
+/* video 반응형으로 만들기 */
+.player video {
+    width : 100%;
+    height : 100%;
+    max-height : 800px; /* 최대크기 조절 */
+}
