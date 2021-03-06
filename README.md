@@ -6,9 +6,9 @@ YouVideo
 
 실행 환경 
 ----------------
-IDE : VSCODE
-Django 3.1.7
-python : 3.9.2
+* IDE : VSCODE
+* Django 3.1.7
+* python : 3.9.2
 
 실행 방법
 ----------------
