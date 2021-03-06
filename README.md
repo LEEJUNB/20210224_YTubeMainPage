@@ -13,8 +13,8 @@ YouVideo
 실행 방법
 ----------------
 가상환경 설치
-    python -m venv myvenv
+`python -m venv myvenv`
 가상환경 실행
-    python myvenv/Script/activate
+`python myvenv/Script/activate`
 장고 설치
-    pip install django
+`pip install django`
