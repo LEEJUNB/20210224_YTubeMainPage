@@ -15,4 +15,4 @@ YouVideo
 1. 가상환경 설치 `python -m venv myvenv`
 2. 가상환경 실행 `python myvenv/Script/activate`
 3. 장고 설치 `pip install django`
-4. 서버 실행 `python manage.py runserver
+4. 서버 실행 `python manage.py runserver`
