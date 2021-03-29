@@ -1,6 +1,7 @@
-YouVideo
+# YouVideo
 ================
 > 이것은 유튜브를 닮은 반응형 웹 프로젝트이다.
+> 디자인에 중점을 둔 프로젝트
 > 사용한 파일(모두 templates폴더에 존재한다.) : index.html, style.css, main.js, img.jpg
 > python venv, django에서 작성했으나 templates폴더만으로도 확인해 볼 수 있다.
 
